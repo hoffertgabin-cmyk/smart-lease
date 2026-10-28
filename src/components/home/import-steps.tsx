@@ -14,7 +14,7 @@ export function ImportSteps({ vertical = false }: { vertical?: boolean }) {
               (i === importSteps.length - 1 ? "bg-accent" : "bg-paper")
             }
           />
-          <p className="font-mono text-[0.8125rem] text-accent">Étape {i + 1}</p>
+          <p className="tabular-nums font-semibold text-[0.8125rem] text-accent">Étape {i + 1}</p>
           <h3 className="mb-2.5 mt-2 text-2xl">{step.title}</h3>
           <p className="text-[0.9375rem] text-muted">{step.text}</p>
         </li>

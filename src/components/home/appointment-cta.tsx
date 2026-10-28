@@ -4,7 +4,7 @@ import { site, telHref, whatsappHref, mapsHref } from "@/lib/site";
 
 export function AppointmentCta({ id = "rendez-vous" }: { id?: string }) {
   return (
-    <section id={id} aria-labelledby={`${id}-title`} className="py-20 md:py-28">
+    <section id={id} aria-labelledby={`${id}-title`} className="on-dark py-20 md:py-28">
       <div className="container-site grid items-end gap-10 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:gap-12">
         <div>
           <p className="eyebrow">{site.hoursShort}</p>
@@ -12,12 +12,12 @@ export function AppointmentCta({ id = "rendez-vous" }: { id?: string }) {
             Venez voir la voiture <em>avant de signer.</em>
           </h2>
         </div>
-        <div className="grid gap-2.5 border border-line bg-paper p-7">
+        <div className="grid gap-2.5 rounded-lg border border-line bg-paper p-7">
           <p className="eyebrow">Showroom</p>
           <a href={mapsHref} target="_blank" rel="noopener noreferrer" className="hover:underline">
             {site.address.street}, {site.address.postalCode} {site.address.city}
           </a>
-          <a href={telHref} className="font-mono text-xl">
+          <a href={telHref} className="tabular-nums font-semibold text-xl">
             {site.phone.display}
           </a>
           <a href={`mailto:${site.email}`} className="text-muted hover:text-ink">

@@ -37,7 +37,7 @@ export default function SoldPage() {
             <li key={item.key} className="grid content-start gap-3">
               <div className="relative">
                 <VehiclePhoto image={item.image} alt={item.title} sizes="(min-width: 1024px) 300px, (min-width: 768px) 33vw, 50vw" className="aspect-[4/3]" />
-                <span className="absolute left-2 top-2 bg-ink px-2 py-0.5 font-mono text-[0.6875rem] uppercase tracking-[0.08em] text-bg">
+                <span className="absolute left-2 top-2 bg-ink px-2 py-0.5 tabular-nums font-semibold text-[0.6875rem] uppercase tracking-[0.08em] text-bg">
                   Vendu
                 </span>
               </div>

@@ -133,7 +133,7 @@ export default async function VehiclePage({ params }: Props) {
           {v.options.length ? (
             <section aria-labelledby="options-title" className="grid gap-6">
               <h2 id="options-title" className="text-display-md">
-                Options et équipements <span className="font-mono text-base text-muted">({v.options.reduce((n, g) => n + g.items.length, 0)})</span>
+                Options et équipements <span className="tabular-nums font-normal text-base text-muted">({v.options.reduce((n, g) => n + g.items.length, 0)})</span>
               </h2>
               <OptionsList options={v.options} />
             </section>
@@ -141,7 +141,7 @@ export default async function VehiclePage({ params }: Props) {
         </div>
 
         <aside aria-label="Prix et contact" className="lg:order-none">
-          <div className="grid gap-6 border border-line bg-paper p-6 md:p-8 lg:sticky lg:top-24">
+          <div className="grid gap-6 rounded-lg border border-line bg-paper p-6 md:p-8 lg:sticky lg:top-24">
             <StatusBadge vehicle={v} className="w-fit border border-line" />
             <div className="grid gap-3 border-y border-ink py-6">
               <p className="text-[2.75rem] leading-none">

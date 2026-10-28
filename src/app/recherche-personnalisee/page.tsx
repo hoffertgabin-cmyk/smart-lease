@@ -24,7 +24,7 @@ export default function SearchPage() {
         intro="Plus vos réponses sont précises, plus nos propositions correspondront à vos attentes. Comptez cinq minutes ; vous n'êtes engagé à rien."
       />
       <div className="container-site grid gap-14 py-14 md:py-20 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-16">
-        <div className="border border-line bg-paper p-6 md:p-10">
+        <div className="rounded-lg border border-line bg-paper p-6 md:p-10">
           <SearchForm />
         </div>
         <aside aria-label="Comment ça marche" className="grid content-start gap-8">

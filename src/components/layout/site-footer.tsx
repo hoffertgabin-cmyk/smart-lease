@@ -6,12 +6,12 @@ import { CookieSettingsButton } from "./cookie-banner";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-ink bg-bg pb-28 pt-16 md:pb-16">
+    <footer className="on-dark border-t border-line pb-28 pt-16 md:pb-16">
       <div className="container-site grid gap-12">
         <div className="grid gap-10 md:grid-cols-[1.4fr_repeat(3,1fr)]">
           <div className="grid content-start gap-4">
-            <p className="font-display text-3xl leading-none">
-              Smart <i className="font-normal">Lease</i>
+            <p className="font-display text-3xl font-extrabold leading-none tracking-[-0.03em]">
+              Smart<span className="text-highlight">Lease</span>
             </p>
             <address className="not-italic text-muted">
               {site.legalName}
@@ -23,7 +23,7 @@ export function SiteFooter() {
               </a>
             </address>
             <p className="grid gap-1">
-              <a href={telHref} className="font-mono">
+              <a href={telHref} className="tabular-nums font-semibold">
                 {site.phone.display}
               </a>
               <a href={mailHref} className="hover:underline">

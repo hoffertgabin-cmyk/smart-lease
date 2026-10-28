@@ -35,8 +35,8 @@ export default function MobileMenuPanel({
           aria-describedby={undefined}
         >
           <div className="container-site flex min-h-[72px] items-center justify-between border-b border-line">
-            <Dialog.Title className="font-display text-2xl">
-              Smart <i className="font-normal">Lease</i>
+            <Dialog.Title className="font-display text-2xl font-extrabold tracking-[-0.03em]">
+              Smart<span className="text-highlight">Lease</span>
             </Dialog.Title>
             <Dialog.Close
               className="inline-flex size-11 items-center justify-center rounded-full border border-line"
@@ -57,7 +57,7 @@ export default function MobileMenuPanel({
                 >
                   <Link
                     href={link.href}
-                    className="block py-4 font-display text-[1.75rem] leading-tight"
+                    className="block py-4 font-display text-[1.625rem] leading-tight"
                     aria-current={pathname === link.href ? "page" : undefined}
                   >
                     {link.label}
@@ -68,7 +68,7 @@ export default function MobileMenuPanel({
           </nav>
           <div className="container-site grid gap-3 border-t border-line py-6">
             <p className="eyebrow">{site.hoursShort}</p>
-            <a href={telHref} className="font-mono text-lg">
+            <a href={telHref} className="tabular-nums font-semibold text-lg">
               {site.phone.display}
             </a>
             <div className="grid grid-cols-2 gap-2">

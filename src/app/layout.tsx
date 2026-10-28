@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Bodoni_Moda, Geist, Geist_Mono } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { WhatsAppFab } from "@/components/layout/whatsapp-fab";
@@ -10,15 +10,13 @@ import { t } from "@/i18n/fr";
 import { consentBootScript } from "@/lib/consent";
 import "./globals.css";
 
-const bodoni = Bodoni_Moda({
+const manrope = Manrope({
   subsets: ["latin"],
-  style: ["normal", "italic"],
-  axes: ["opsz"],
-  variable: "--font-bodoni",
-  display: "fallback",
+  weight: ["600", "700", "800"],
+  variable: "--font-manrope",
+  display: "swap",
 });
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "fallback" });
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "fallback", preload: false });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -40,7 +38,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f6f6f3",
+  themeColor: "#0b1f3a",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -50,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="fr"
-      className={`${bodoni.variable} ${geist.variable} ${geistMono.variable}`}
+      className={`${manrope.variable} ${inter.variable}`}
       suppressHydrationWarning
     >
       <head>

@@ -12,7 +12,7 @@ export function PriceAmount({ vehicle, className }: { vehicle: Vehicle; classNam
     <span className={cn("font-display tabular-nums lining-nums", className)}>
       {variants.length > 1 ? <span className="mr-1 font-sans text-[0.55em] text-muted">{t.price.from}</span> : null}
       {formatPrice(amount)}
-      <span className="ml-1.5 font-mono text-[0.45em] tracking-[0.06em] text-muted">{taxMode}</span>
+      <span className="ml-1.5 tabular-nums font-semibold text-[0.45em] tracking-[0.06em] text-muted">{taxMode}</span>
     </span>
   );
 }

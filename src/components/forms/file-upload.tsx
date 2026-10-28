@@ -47,7 +47,7 @@ export function FileUpload({
       </p>
       <label
         htmlFor={id}
-        className="flex cursor-pointer flex-col items-center justify-center gap-2 border border-dashed border-line bg-bg px-4 py-8 text-center transition-colors hover:border-ink has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-accent"
+        className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-lg border border-dashed border-line bg-bg px-4 py-8 text-center transition-colors hover:border-ink has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-accent"
       >
         <ImagePlus aria-hidden className="size-6 text-accent" strokeWidth={1.5} />
         <span className="text-[0.9375rem]">Choisir {multiple ? "des fichiers" : "un fichier"}</span>
@@ -73,7 +73,7 @@ export function FileUpload({
       {files.length ? (
         <ul className="grid gap-1.5">
           {files.map((f, i) => (
-            <li key={`${f.name}-${i}`} className="flex items-center justify-between gap-3 border border-line bg-paper px-3 py-2 text-sm">
+            <li key={`${f.name}-${i}`} className="flex items-center justify-between gap-3 rounded-md border border-line bg-paper px-3 py-2 text-sm">
               <span className="flex min-w-0 items-center gap-2">
                 <FileText aria-hidden className="size-4 shrink-0 text-muted" />
                 <span className="truncate">{f.name}</span>

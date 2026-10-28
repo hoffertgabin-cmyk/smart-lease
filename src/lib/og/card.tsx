@@ -8,15 +8,13 @@ export const ogSize = { width: 1200, height: 630 };
 const fontDir = path.join(process.cwd(), "src/assets/fonts");
 
 async function fonts() {
-  const [regular, italic, sans] = await Promise.all([
-    readFile(path.join(fontDir, "BodoniModa-Medium.ttf")),
-    readFile(path.join(fontDir, "BodoniModa-MediumItalic.ttf")),
-    readFile(path.join(fontDir, "Geist-Medium.ttf")),
+  const [display, sans] = await Promise.all([
+    readFile(path.join(fontDir, "Manrope-ExtraBold.ttf")),
+    readFile(path.join(fontDir, "Inter-Medium.ttf")),
   ]);
   return [
-    { name: "Bodoni", data: regular, style: "normal" as const, weight: 500 as const },
-    { name: "BodoniItalic", data: italic, style: "normal" as const, weight: 500 as const },
-    { name: "Geist", data: sans, style: "normal" as const, weight: 500 as const },
+    { name: "Manrope", data: display, style: "normal" as const, weight: 800 as const },
+    { name: "Inter", data: sans, style: "normal" as const, weight: 500 as const },
   ];
 }
 
@@ -37,19 +35,19 @@ export async function ogCard({
 }) {
   return new ImageResponse(
     (
-      <div style={{ display: "flex", width: "100%", height: "100%", background: "#f6f6f3", color: "#131614", fontFamily: "Bodoni" }}>
+      <div style={{ display: "flex", width: "100%", height: "100%", background: "#0b1f3a", color: "#ffffff", fontFamily: "Inter" }}>
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 64, width: photo ? 560 : "100%" }}>
-          <div style={{ display: "flex", fontSize: 34, fontFamily: "Bodoni" }}>
-            Smart&nbsp;<span style={{ fontFamily: "BodoniItalic" }}>Lease</span>
+          <div style={{ display: "flex", fontSize: 36, fontFamily: "Manrope", letterSpacing: -1 }}>
+            Smart<span style={{ color: "#ffb547" }}>Lease</span>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ fontSize: 20, letterSpacing: 4, fontFamily: "Geist", textTransform: "uppercase", color: "#1f4a37", marginBottom: 20 }}>
+            <div style={{ fontSize: 20, letterSpacing: 3, textTransform: "uppercase", color: "#ffb547", marginBottom: 20 }}>
               {plain(eyebrow)}
             </div>
-            <div style={{ fontSize: photo ? 56 : 76, lineHeight: 1.05, fontFamily: "Bodoni" }}>{plain(title)}</div>
-            {details ? <div style={{ fontSize: 30, marginTop: 24, color: "#1f4a37", fontFamily: "Geist" }}>{plain(details)}</div> : null}
+            <div style={{ fontSize: photo ? 52 : 68, lineHeight: 1.1, fontFamily: "Manrope", letterSpacing: -1.5 }}>{plain(title)}</div>
+            {details ? <div style={{ fontSize: 32, marginTop: 24, color: "#ffffff" }}>{plain(details)}</div> : null}
           </div>
-          <div style={{ display: "flex", fontSize: 22, color: "#5a5f5b", fontFamily: "Geist" }}>
+          <div style={{ display: "flex", fontSize: 22, color: "#c2cddd" }}>
             {`${site.address.street}, ${site.address.postalCode} ${site.address.city}  ·  ${site.phone.display}`}
           </div>
         </div>

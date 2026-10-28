@@ -41,7 +41,7 @@ export function Catalog({
             ))}
           </section>
         ) : (
-          <div className="grid justify-items-start gap-4 border border-line bg-paper p-8 md:p-12">
+          <div className="grid justify-items-start gap-4 rounded-lg border border-line bg-paper p-8 md:p-12">
             <h2 className="text-display-md">Aucun véhicule ne correspond à ces critères</h2>
             <p className="max-w-[56ch] text-muted">
               Élargissez votre recherche, ou confiez-nous votre cahier des charges : nous trouvons le véhicule pour vous

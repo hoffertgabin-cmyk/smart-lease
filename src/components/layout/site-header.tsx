@@ -96,7 +96,7 @@ export function SiteHeader() {
         </nav>
         <Logo className="lg:justify-self-center" />
         <div className="flex items-center justify-self-end gap-2 sm:gap-4">
-          <a href={telHref} className="hidden items-center gap-2 font-mono text-sm sm:inline-flex">
+          <a href={telHref} className="hidden items-center gap-2 tabular-nums font-semibold text-sm sm:inline-flex">
             <Phone aria-hidden className="size-4 text-accent" />
             {site.phone.display}
           </a>

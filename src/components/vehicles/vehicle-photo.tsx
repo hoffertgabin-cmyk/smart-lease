@@ -19,7 +19,7 @@ export function VehiclePhoto({
   imgClassName?: string;
 }) {
   return (
-    <div className={cn("relative overflow-hidden bg-studio", className)}>
+    <div className={cn("relative overflow-hidden rounded-lg bg-studio", className)}>
       {image ? (
         <Image
           src={image.src}
@@ -33,7 +33,7 @@ export function VehiclePhoto({
         />
       ) : (
         <div role="img" aria-label={`${alt} (photo à venir)`} className="studio-placeholder absolute inset-0">
-          <span className="absolute bottom-3 left-3 bg-paper/85 px-2 py-0.5 font-mono text-[0.6875rem] text-muted">
+          <span className="absolute bottom-3 left-3 bg-paper/85 px-2 py-0.5 tabular-nums font-semibold text-[0.6875rem] text-muted">
             Photo à venir
           </span>
         </div>

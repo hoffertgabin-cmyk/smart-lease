@@ -43,7 +43,7 @@ export default function ServicesPage() {
             className="grid gap-6 border-b border-line py-14 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] md:gap-12 md:py-20"
           >
             <div>
-              <p className="font-mono text-sm text-accent">{String(i + 1).padStart(2, "0")}</p>
+              <p className="tabular-nums font-semibold text-sm text-accent">{String(i + 1).padStart(2, "0")}</p>
               <h2 id={`${s.id}-title`} className="mt-3 text-display-lg">
                 {s.title}
               </h2>

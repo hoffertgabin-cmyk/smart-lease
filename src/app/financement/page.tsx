@@ -84,7 +84,7 @@ export default function FinancingPage() {
             </section>
           ))}
         </div>
-        <div className="mt-16 grid gap-6 border border-line bg-paper p-6 md:grid-cols-[minmax(0,1fr)_auto] md:items-center md:p-10">
+        <div className="mt-16 grid gap-6 rounded-lg border border-line bg-paper p-6 md:grid-cols-[minmax(0,1fr)_auto] md:items-center md:p-10">
           <div className="grid gap-3">
             <h2 className="text-display-md">Une simulation adaptée à votre projet</h2>
             <p className="max-w-[60ch] text-muted">

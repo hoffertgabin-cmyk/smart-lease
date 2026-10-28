@@ -8,7 +8,7 @@ export function OptionsList({ options }: { options: Vehicle["options"] }) {
         <details key={group.group} className="group border-b border-line" open={i === 0}>
           <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 text-lg font-medium [&::-webkit-details-marker]:hidden">
             <span>
-              {group.group} <span className="font-mono text-sm text-muted">({group.items.length})</span>
+              {group.group} <span className="tabular-nums font-normal text-sm text-muted">({group.items.length})</span>
             </span>
             <span aria-hidden className="text-2xl leading-none text-muted transition-transform group-open:rotate-45">
               +

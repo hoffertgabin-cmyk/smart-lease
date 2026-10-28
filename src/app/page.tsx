@@ -22,8 +22,8 @@ export default function HomePage() {
 
   return (
     <>
-      <section aria-labelledby="hero-title" className="pb-16 pt-10 md:pb-20 md:pt-14">
-        <div className="container-site grid items-end gap-10 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] md:gap-12">
+      <section aria-labelledby="hero-title" className="on-dark pb-16 pt-10 md:pb-20 md:pt-14">
+        <div className="container-site grid items-center gap-10 md:grid-cols-2 md:gap-12">
           <div className="order-2 md:order-1">
             <p className="eyebrow">Négociant automobile indépendant · Luxembourg</p>
             <h1 id="hero-title" className="mt-5 text-display-xl">
@@ -152,7 +152,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section aria-label="Professionnels" className="border-t border-line py-20 md:py-28">
+      <section aria-label="Professionnels" className="bg-accent-soft py-20 md:py-28">
         <div className="container-site">
           <ProBlock image={proVehicle?.images[0]} />
         </div>

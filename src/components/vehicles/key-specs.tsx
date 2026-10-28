@@ -21,7 +21,7 @@ export function KeySpecs({ vehicle }: { vehicle: Vehicle }) {
     <dl className="grid grid-cols-2 border-l border-t border-line sm:grid-cols-4">
       {items.map(({ icon: Icon, label, value }) => (
         <div key={label} className="grid content-start gap-1.5 border-b border-r border-line p-4">
-          <dt className="flex items-center gap-2 font-mono text-[0.6875rem] uppercase tracking-[0.08em] text-muted">
+          <dt className="flex items-center gap-2 tabular-nums font-semibold text-[0.6875rem] uppercase tracking-[0.08em] text-muted">
             <Icon aria-hidden className="size-4 text-accent" strokeWidth={1.5} />
             {label}
           </dt>

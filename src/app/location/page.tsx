@@ -44,7 +44,7 @@ export default function RentalPage() {
               </Link>
             </li>
           ))}
-          <li className="grid content-start gap-4 self-start border border-line bg-paper p-6 md:p-8">
+          <li className="grid content-start gap-4 self-start rounded-lg border border-line bg-paper p-6 md:p-8">
             <p className="eyebrow">Professionnels</p>
             <h2 className="text-display-md">Pack bois pour utilitaires</h2>
             <p className="text-muted">

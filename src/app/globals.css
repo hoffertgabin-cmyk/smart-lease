@@ -1,27 +1,30 @@
 @import "tailwindcss";
 
-/* Direction « Maison » : blanc studio, encre, un seul accent vert anglais. */
+/* Direction « Maison », version colorée : blanc froid, bleu nuit, bleu vif, touche ambre sur fond sombre. */
 @theme {
-  --color-bg: #f6f6f3;
+  --color-bg: #f5f7fb;
   --color-paper: #ffffff;
-  --color-studio: #e6e7e3;
-  --color-line: #dcddd7;
-  --color-ink: #131614;
-  --color-muted: #5a5f5b;
-  --color-accent: #1f4a37;
-  --color-accent-soft: #e3ebe6;
-  --color-danger: #9b2c1f;
+  --color-studio: #e8edf4;
+  --color-line: #dbe2ec;
+  --color-ink: #0f1b2d;
+  --color-muted: #536074;
+  --color-accent: #1d4ed8;
+  --color-accent-strong: #1e3a8a;
+  --color-accent-soft: #e7eeff;
+  --color-highlight: #1d4ed8;
+  --color-navy: #0b1f3a;
+  --color-amber: #ffb547;
+  --color-danger: #b42318;
 
-  --font-display: var(--font-bodoni), "Didot", "Bodoni 72", Georgia, serif;
-  --font-sans: var(--font-geist), "Helvetica Neue", Arial, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+  --font-display: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
 
-  --text-display-xl: clamp(2.5rem, 5.4vw, 4.5rem);
-  --text-display-xl--line-height: 1.04;
-  --text-display-lg: clamp(2.1rem, 4.4vw, 3.5rem);
-  --text-display-lg--line-height: 1.06;
-  --text-display-md: 1.625rem;
-  --text-display-md--line-height: 1.15;
+  --text-display-xl: clamp(2.25rem, 4.6vw, 3.75rem);
+  --text-display-xl--line-height: 1.08;
+  --text-display-lg: clamp(1.875rem, 3.6vw, 2.75rem);
+  --text-display-lg--line-height: 1.12;
+  --text-display-md: 1.5rem;
+  --text-display-md--line-height: 1.25;
 
   --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
@@ -38,14 +41,14 @@
   }
   h1, h2, h3 {
     font-family: var(--font-display);
-    font-weight: 500;
-    letter-spacing: -0.015em;
+    font-weight: 700;
+    letter-spacing: -0.025em;
     text-wrap: balance;
-    font-optical-sizing: auto;
   }
-  h1 em, h2 em, h3 em {
-    font-style: italic;
-    font-weight: 400;
+  /* Mise en valeur d'un fragment de titre : couleur, pas d'italique. */
+  h1 em, h2 em, h3 em, .font-display em {
+    font-style: normal;
+    color: var(--color-highlight);
   }
   :focus-visible {
     outline: 2px solid var(--color-accent);
@@ -70,12 +73,32 @@
       padding-right: max(32px, env(safe-area-inset-right, 0px));
     }
   }
+  .font-display {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
   .eyebrow {
-    font-family: var(--font-mono);
     font-size: 0.8125rem;
+    font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--color-muted);
+    color: var(--color-highlight);
+  }
+  /* Bandeau sombre : les couleurs du thème sont redéfinies pour tout ce qui est à l'intérieur. */
+  .on-dark {
+    --color-bg: #0b1f3a;
+    --color-paper: #12294a;
+    --color-studio: #1a3459;
+    --color-line: rgb(255 255 255 / 0.16);
+    --color-ink: #ffffff;
+    --color-muted: #c2cddd;
+    --color-highlight: #ffb547;
+    --color-accent-soft: rgb(255 255 255 / 0.1);
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+  }
+  .on-dark :focus-visible {
+    outline-color: var(--color-amber);
   }
   .prose-site p + p {
     margin-top: 1em;
@@ -95,7 +118,6 @@
     text-underline-offset: 3px;
   }
   .todo {
-    font-family: var(--font-mono);
     font-size: 0.8125rem;
     background: #fff1bf;
     color: #4d3d00;
@@ -104,7 +126,7 @@
   }
   /* Fond studio utilisé tant qu'une photo manque. */
   .studio-placeholder {
-    background: linear-gradient(180deg, #ebece8 0%, #e3e4e0 58%, #d6d8d2 58.2%, #e1e2de 100%);
+    background: linear-gradient(180deg, #eef2f7 0%, #e5eaf1 58%, #d8dfe9 58.2%, #e3e8ef 100%);
   }
 }
 

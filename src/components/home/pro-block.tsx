@@ -21,8 +21,8 @@ export function ProBlock({ image }: { image?: VehicleImage }) {
         </h2>
         <dl className="mt-7">
           {rows.map((r) => (
-            <div key={r.term} className="grid gap-1 border-t border-line py-3.5 sm:grid-cols-[160px_1fr] sm:gap-4">
-              <dt className="font-display text-xl">{r.term}</dt>
+            <div key={r.term} className="grid gap-1 border-t border-accent/20 py-3.5 sm:grid-cols-[160px_1fr] sm:gap-4">
+              <dt className="font-display text-lg">{r.term}</dt>
               <dd className="text-muted">{r.text}</dd>
             </div>
           ))}

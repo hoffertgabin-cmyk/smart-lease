@@ -23,7 +23,7 @@ export default function TradeInPage() {
         intro="Envoyez-nous quelques photos et la carte grise : nous vous faisons une proposition de reprise. Si le prix ne vous convient pas, nous vous proposons le dépôt-vente gratuit dans nos locaux."
       />
       <div className="container-site grid gap-14 py-14 md:py-20 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-16">
-        <div className="border border-line bg-paper p-6 md:p-10">
+        <div className="rounded-lg border border-line bg-paper p-6 md:p-10">
           <TradeInForm />
         </div>
         <aside aria-label="Comment ça marche" className="grid content-start gap-6">
@@ -35,7 +35,7 @@ export default function TradeInPage() {
               ["Vous choisissez", "Reprise immédiate, ou dépôt-vente gratuit si le prix ne vous convient pas."],
             ].map(([title, text], i) => (
               <li key={title} className="grid grid-cols-[2rem_1fr] gap-3 border-t border-line pt-5">
-                <span className="font-mono text-sm text-accent">{i + 1}</span>
+                <span className="tabular-nums font-semibold text-sm text-accent">{i + 1}</span>
                 <div>
                   <p className="font-display text-xl">{title}</p>
                   <p className="mt-1 text-muted">{text}</p>

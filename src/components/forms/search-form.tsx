@@ -94,7 +94,7 @@ export function SearchForm() {
       <Honeypot register={() => register("website")} />
       <div className="grid gap-3">
         <div className="flex items-baseline justify-between gap-4">
-          <p className="font-mono text-sm text-accent">
+          <p className="tabular-nums font-semibold text-sm text-accent">
             Étape {step + 1} sur {steps.length}
           </p>
           <p className="text-sm text-muted">{steps[step + 1] ? `Ensuite : ${steps[step + 1].title}` : "Dernière étape"}</p>

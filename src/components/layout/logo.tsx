@@ -6,10 +6,10 @@ export function Logo({ className }: { className?: string }) {
   return (
     <Link
       href="/"
-      className={cn("font-display text-2xl leading-none tracking-[0.02em] whitespace-nowrap", className)}
+      className={cn("font-display text-[1.5rem] font-extrabold leading-none tracking-[-0.03em] whitespace-nowrap", className)}
       aria-label="Smart Lease, accueil"
     >
-      Smart <i className="font-normal">Lease</i>
+      Smart<span className="text-highlight">Lease</span>
     </Link>
   );
 }

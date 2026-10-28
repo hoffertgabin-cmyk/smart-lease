@@ -65,7 +65,7 @@ export function ContactActions({ vehicleLabel, url }: { vehicleLabel: string; ur
         {copied ? <Check aria-hidden /> : <Share2 aria-hidden />}
         {copied ? "Lien copié" : "Partager ce véhicule"}
       </button>
-      <p className="font-mono text-sm text-muted">{site.phone.display}</p>
+      <p className="tabular-nums font-semibold text-sm text-muted">{site.phone.display}</p>
     </div>
   );
 }

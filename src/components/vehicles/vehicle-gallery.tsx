@@ -32,7 +32,7 @@ export function VehicleGallery({ images, title }: { images: VehicleImage[]; titl
           </li>
         ))}
       </ul>
-      <p className="mt-1 font-mono text-xs text-muted md:hidden">
+      <p className="mt-1 tabular-nums font-semibold text-xs text-muted md:hidden">
         {images.length} photos · faites glisser
       </p>
 

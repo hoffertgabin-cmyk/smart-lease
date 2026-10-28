@@ -34,7 +34,7 @@ export default async function ContactPage({ searchParams }: { searchParams: Prom
         <div id="rendez-vous" className="grid content-start gap-8">
           <div className="grid gap-2">
             <p className="eyebrow">Téléphone et WhatsApp</p>
-            <a href={telHref} className="font-mono text-2xl">
+            <a href={telHref} className="tabular-nums font-semibold text-2xl">
               {site.phone.display}
             </a>
             <div className="mt-2 flex flex-wrap gap-2">
@@ -70,7 +70,7 @@ export default async function ContactPage({ searchParams }: { searchParams: Prom
             <MapEmbed />
           </div>
         </div>
-        <section id="formulaire" aria-labelledby="form-title" className="border border-line bg-paper p-6 md:p-10">
+        <section id="formulaire" aria-labelledby="form-title" className="rounded-lg border border-line bg-paper p-6 md:p-10">
           <h2 id="form-title" className="mb-8 text-display-md">
             Envoyer un message
           </h2>

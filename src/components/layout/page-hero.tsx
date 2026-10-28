@@ -21,7 +21,7 @@ export function PageHero({
 }) {
   const all = [{ name: "Accueil", path: "/" }, ...crumbs];
   return (
-    <div className={cn("border-b border-line pb-12 pt-8 md:pb-16 md:pt-10", className)}>
+    <div className={cn("on-dark pb-12 pt-8 md:pb-16 md:pt-10", className)}>
       <div className="container-site">
         <nav aria-label="Fil d'Ariane" className="mb-10 text-sm text-muted">
           <ol className="flex flex-wrap items-center gap-2">
