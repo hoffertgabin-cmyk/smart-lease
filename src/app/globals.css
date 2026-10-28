@@ -161,3 +161,46 @@
 html[data-consent] .cookie-banner {
   display: none;
 }
+
+/* Frise des étapes : la ligne se remplit, les étapes apparaissent l'une après l'autre (composant InView).
+   Les transitions ne s'appliquent qu'à l'état "in", pour que le masquage initial ("armed") soit instantané. */
+.steps .steps-progress {
+  transform-origin: top left;
+}
+.steps[data-inview="armed"] .steps-progress {
+  transform: scaleY(0);
+}
+@media (min-width: 768px) {
+  .steps:not(.steps-col)[data-inview="armed"] .steps-progress {
+    transform: scaleX(0);
+  }
+}
+.steps[data-inview="in"] .steps-progress {
+  transition: transform 1.8s cubic-bezier(0.45, 0, 0.25, 1);
+}
+.steps[data-inview="armed"] .step {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.steps[data-inview="in"] .step {
+  transition:
+    opacity 0.6s var(--ease-out-soft),
+    transform 0.6s var(--ease-out-soft);
+  transition-delay: calc(var(--i) * 0.45s + 0.15s);
+}
+.steps[data-inview="in"] .step-dot {
+  background-color: var(--color-accent);
+  transition: background-color 0.3s ease;
+  transition-delay: calc(var(--i) * 0.45s + 0.15s);
+}
+.steps[data-inview="in"] .step:last-child .step-dot {
+  animation: step-ping 1.2s var(--ease-out-soft) 1.9s 2;
+}
+@keyframes step-ping {
+  0% {
+    box-shadow: 0 0 0 0 rgb(29 78 216 / 0.45);
+  }
+  100% {
+    box-shadow: 0 0 0 12px rgb(29 78 216 / 0);
+  }
+}
