@@ -1,26 +1,141 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Direction « Maison » : blanc studio, encre, un seul accent vert anglais. */
+@theme {
+  --color-bg: #f6f6f3;
+  --color-paper: #ffffff;
+  --color-studio: #e6e7e3;
+  --color-line: #dcddd7;
+  --color-ink: #131614;
+  --color-muted: #5a5f5b;
+  --color-accent: #1f4a37;
+  --color-accent-soft: #e3ebe6;
+  --color-danger: #9b2c1f;
+
+  --font-display: var(--font-bodoni), "Didot", "Bodoni 72", Georgia, serif;
+  --font-sans: var(--font-geist), "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+
+  --text-display-xl: clamp(2.5rem, 5.4vw, 4.5rem);
+  --text-display-xl--line-height: 1.04;
+  --text-display-lg: clamp(2.1rem, 4.4vw, 3.5rem);
+  --text-display-lg--line-height: 1.06;
+  --text-display-md: 1.625rem;
+  --text-display-md--line-height: 1.15;
+
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 88px;
+  }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    font-optical-sizing: auto;
+  }
+  h1 em, h2 em, h3 em {
+    font-style: italic;
+    font-weight: 400;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: var(--color-accent-soft);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container-site {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 1240px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  @media (min-width: 768px) {
+    .container-site {
+      padding-left: max(32px, env(safe-area-inset-left, 0px));
+      padding-right: max(32px, env(safe-area-inset-right, 0px));
+    }
+  }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .prose-site p + p {
+    margin-top: 1em;
+  }
+  .prose-site h2 {
+    font-size: var(--text-display-md);
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-site ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-top: 0.75rem;
+  }
+  .prose-site a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .todo {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    background: #fff1bf;
+    color: #4d3d00;
+    padding: 0.125rem 0.5rem;
+    border-radius: 2px;
+  }
+  /* Fond studio utilisé tant qu'une photo manque. */
+  .studio-placeholder {
+    background: linear-gradient(180deg, #ebece8 0%, #e3e4e0 58%, #d6d8d2 58.2%, #e1e2de 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    transform: translateY(18px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 45%;
+    }
+  }
+}
+
+html[data-consent] .cookie-banner {
+  display: none;
 }

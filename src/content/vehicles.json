@@ -1,0 +1,2926 @@
+{
+  "vehicles": [
+    {
+      "slug": "porsche-718-boxster-s-2017",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Porsche",
+      "model": "718 Boxster",
+      "version": "S PDK",
+      "year": 2017,
+      "firstRegistration": null,
+      "mileageKm": 76000,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "PDK 7 rapports",
+      "powerHp": 350,
+      "fiscalHp": null,
+      "engine": "2.5 L turbo",
+      "bodyType": "cabriolet",
+      "exteriorColor": "Noir",
+      "interiorColor": null,
+      "price": {
+        "amount": 67900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Entretien exclusivement en concession Porsche. Dernière révision 06/2026.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse",
+            "Radars avant/arrière et caméra de recul",
+            "Détection d'angle mort",
+            "Rétroviseurs extérieurs anti-éblouissement"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Système audio Bose",
+            "Commande vocale"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Volant multifonction Sport GT chauffant",
+            "Sièges chauffants et ventilés",
+            "Intérieur cuir intégral"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Jantes 20\" Carrera S",
+            "Phares bi-xénon PDLS",
+            "Pack Sport Chrono",
+            "Échappement sport noir",
+            "PASM -10 mm",
+            "Pack fumeur"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Porsche Communication Management",
+            "Servotronic Plus",
+            "Écusson Porsche brodé sur appuie-têtes et console centrale",
+            "Capteur de pluie",
+            "Affichage des limitations de vitesse"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/porsche-boxster-s-718-noir",
+      "legacyCover": "IMG_7459-1920w.jpg",
+      "todo": [
+        "Date exacte de 1re mise en circulation",
+        "CV fiscaux",
+        "Couleur exacte (URL : « noir »)",
+        "Libellés d'options à revérifier sur le HTML brut"
+      ]
+    },
+    {
+      "slug": "audi-rsq8-2022",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Audi",
+      "model": "RS Q8",
+      "version": "4.0 TFSI quattro",
+      "year": 2022,
+      "firstRegistration": "2022-09",
+      "mileageKm": 57000,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 600,
+      "fiscalHp": null,
+      "engine": "V8 4.0 TFSI",
+      "bodyType": "suv",
+      "exteriorColor": "Gris Nardo",
+      "interiorColor": null,
+      "price": {
+        "amount": 94900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Clé confort avec antivol",
+            "Pack assistance en ville",
+            "Pack assistance au stationnement Plus"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Affichage tête haute",
+            "Audi Phone Box",
+            "Chauffage stationnaire avec télécommande"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Sièges sport RS surpiqûres rouges",
+            "Stores électriques vitres latérales arrière",
+            "Sièges chauffants avant et arrière",
+            "Sièges avant ventilés et massants",
+            "Soft Close",
+            "Toit ouvrant panoramique",
+            "Volant méplat multifonction Alcantara"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Dispositif d'attelage",
+            "Inserts décoratifs carbone sergé mat",
+            "Jantes alliage 23\"",
+            "Pack Design RS rouge",
+            "Pack Style carbone / noir brillant",
+            "Phares Matrix LED",
+            "Rétroviseurs électriques dégivrants",
+            "Échappement sport RS",
+            "Vitrage Privacy"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Anneaux noir brillant",
+            "Essuie-glaces avec buses intégrées"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/audi-rsq8-gris-nardo",
+      "legacyCover": "IMG_2513-1920w.png",
+      "todo": [
+        "Énergie et version confirmées (l'ancien site ne les indique pas)",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "cupra-formentor-vz-333-2025",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Cupra",
+      "model": "Formentor",
+      "version": "VZ 2.0 TSI 333 4Drive",
+      "year": 2025,
+      "firstRegistration": "2025-05",
+      "mileageKm": 18900,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "DSG 7 rapports",
+      "powerHp": 333,
+      "fiscalHp": null,
+      "engine": "2.0 L",
+      "bodyType": "suv",
+      "exteriorColor": "Noir",
+      "interiorColor": null,
+      "price": {
+        "amount": 41990,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": "Garantie jusqu'en 05/2030",
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Caméra 360°",
+            "Régulateur adaptatif ACC et maintien dans la voie"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Apple CarPlay",
+            "GPS",
+            "Système audio Sennheiser"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation tri-zone",
+            "Intérieur cuir",
+            "Éclairage d'ambiance",
+            "Sièges électriques",
+            "Sièges chauffants",
+            "Sièges sport cuir/Alcantara",
+            "Toit ouvrant panoramique",
+            "Volant multifonction chauffant"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Attache remorque",
+            "Jantes Cupra 19\"",
+            "Pack extérieur Black",
+            "Phares Full LED automatiques",
+            "Vitres teintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au stationnement automatique",
+            "Auto Hold",
+            "Modes de conduite Cupra"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/cupra-formentor-vz-noir-2025",
+      "legacyCover": "IMG_9624-1920w.jpg",
+      "todo": [
+        "CV fiscaux",
+        "Couleur confirmée (URL : « noir »)",
+        "Transmission 4Drive à confirmer"
+      ]
+    },
+    {
+      "slug": "mercedes-classe-c-220d-coupe-amg-line-2019",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Mercedes-Benz",
+      "model": "Classe C Coupé",
+      "version": "220 d AMG Line",
+      "year": 2019,
+      "firstRegistration": "2019-07",
+      "mileageKm": 94500,
+      "fuel": "diesel",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 194,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "coupe",
+      "exteriorColor": "Blanc",
+      "interiorColor": null,
+      "price": {
+        "amount": 28900,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Assistant feux de route Plus",
+            "Caméra de recul",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Apple CarPlay",
+            "Écrans digitaux (restylage)",
+            "Pavé tactile",
+            "COMAND Online",
+            "Système de navigation"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation bi-zone",
+            "Intérieur AMG Line",
+            "Sièges chauffants",
+            "Sièges électriques",
+            "Toit ouvrant panoramique"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Extérieur AMG Line",
+            "Pack Black",
+            "Pack rétroviseurs",
+            "Intelligent Light System LED",
+            "Vitres teintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Dynamic Select",
+            "Inserts frêne noir"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/mercedes-class-c-220d-coupe-amg-blanc",
+      "legacyCover": "IMG_2199-1920w.png",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "mercedes-cla-shooting-brake-200d-amg-line-2025",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Mercedes-Benz",
+      "model": "CLA Shooting Brake",
+      "version": "200 d AMG Line",
+      "year": 2025,
+      "firstRegistration": "2025-04",
+      "mileageKm": 59900,
+      "fuel": "diesel",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 150,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "break",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": 31900,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Entretien Mercedes, prochaine révision A5 dans 17 000 km. 4 pneus hiver + 4 pneus été fournis.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Aide au parking Parktronic",
+            "Assistant feux de route Plus",
+            "Assistant angles morts",
+            "Caméra 360°",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Affichage tête haute",
+            "Apple CarPlay",
+            "COMAND Online",
+            "Chargeur sans fil",
+            "Sonorisation Burmester"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Accès Keyless",
+            "Climatisation bi-zone",
+            "Hayon électrique",
+            "Intérieur AMG",
+            "Sièges chauffants",
+            "Sièges électriques",
+            "Toit ouvrant panoramique"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Attache remorque",
+            "Extérieur AMG",
+            "Phares LED",
+            "Vitres teintées"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/mercedes-cla-break-200d-amg",
+      "legacyCover": "IMG_2330-1920w.png",
+      "todo": [
+        "Couleur",
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie",
+        "Vérifier 1re MEC 04/2025 avec 59 900 km"
+      ]
+    },
+    {
+      "slug": "mercedes-glb-220d-amg-line-2022",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Mercedes-Benz",
+      "model": "GLB",
+      "version": "220 d AMG Line",
+      "year": 2022,
+      "firstRegistration": "2022-07",
+      "mileageKm": 131900,
+      "fuel": "diesel",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 190,
+      "fiscalHp": null,
+      "engine": "2.0 L",
+      "bodyType": "suv",
+      "exteriorColor": "Noir",
+      "interiorColor": null,
+      "price": {
+        "amount": 34900,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Révision faite à 130 000 km (09/2026). Freinage neuf.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Caméra 360°",
+            "Line Assist",
+            "Radars avant et arrière",
+            "Régulateur adaptatif"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Sonorisation Burmester"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Barres de toit noires",
+            "Intérieur cuir brun",
+            "Pack AMG intérieur",
+            "Pack intérieur carbone",
+            "Sièges chauffants",
+            "Sièges électriques à mémoire",
+            "Toit ouvrant panoramique"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Jantes AMG 19\"",
+            "Pack AMG Line",
+            "Phares Multibeam LED",
+            "Vitres teintées"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/mercedes-glb-220d-amg-noir-occ",
+      "legacyCover": "IMG_1810.jpg",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "bmw-x3-xdrive20d-m-sport-2021",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "BMW",
+      "model": "X3",
+      "version": "xDrive20d M Sport",
+      "year": 2021,
+      "firstRegistration": null,
+      "mileageKm": 75000,
+      "fuel": "diesel",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 190,
+      "fiscalHp": null,
+      "engine": "2.0 L Mild Hybrid 48V",
+      "bodyType": "suv",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": 37900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Affichage pression des pneus",
+            "Assistant feux de route",
+            "Boulons antivol",
+            "Driving Assistant",
+            "Rétroviseurs anti-éblouissement",
+            "Parking Assistant Plus",
+            "Antibrouillards LED",
+            "Active Protection",
+            "Protection piéton active"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "BMW Head-Up Display",
+            "BMW Live Cockpit Professional (GPS)",
+            "ConnectedDrive Services",
+            "Système HiFi",
+            "Téléphonie confort avec connexion smartphone étendue",
+            "Teleservices"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Accès confort",
+            "Barres de toit Shadow Line brillant",
+            "Sièges avant chauffants",
+            "Climatisation 3 zones",
+            "Sellerie tissu/cuir Vernasca noir, surpiqûres bleues",
+            "Inserts aluminium Rhombicle",
+            "Éclairage d'ambiance",
+            "Sièges arrière réglables électriquement",
+            "Sièges sport avant",
+            "Toit panoramique",
+            "Volant cuir M chauffant"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Attelage",
+            "Châssis adaptatif",
+            "Freins M Sport rouges",
+            "Modèle M Sport",
+            "Pack aérodynamique M",
+            "Pack Innovation",
+            "Phares LED adaptatifs",
+            "BMW Individual Shadow Line étendu",
+            "Direction Variable Sport",
+            "Vitrage acoustique",
+            "Vitres arrière surteintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Appel d'urgence intelligent",
+            "BMW Display Key",
+            "Ciel de pavillon BMW Individual anthracite",
+            "Filet de séparation du coffre",
+            "Mild Hybrid 48V",
+            "Performance Control",
+            "Réservoir agrandi",
+            "Soutien lombaire avant",
+            "Planche de bord Sensatec"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/bmw-x3-xdrive-20d-m-sport",
+      "legacyCover": "IMG_1833-1920w.jpg",
+      "todo": [
+        "Date de 1re MEC",
+        "Couleur",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "mini-john-cooper-works-231-ultimate-2021",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Mini",
+      "model": "John Cooper Works",
+      "version": "231 Ultimate",
+      "year": 2021,
+      "firstRegistration": "2021-03",
+      "mileageKm": 93000,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique 8 rapports",
+      "powerHp": 231,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "citadine",
+      "exteriorColor": "Gris clair, toit rouge, bandes de capot noires liseré rouge",
+      "interiorColor": null,
+      "price": {
+        "amount": 24900,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Radars avant et arrière",
+            "Caméra de recul",
+            "Park Assist",
+            "Régulateur adaptatif"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Affichage tête haute",
+            "Apple CarPlay",
+            "Navigation",
+            "Système audio Harman Kardon"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Accès et démarrage sans clé",
+            "Climatisation automatique bi-zone",
+            "Sellerie cuir/Alcantara JCW",
+            "Sièges avant chauffants",
+            "Toit ouvrant panoramique"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Éclairage Full LED",
+            "Jantes alliage JCW",
+            "Pneus été et hiver",
+            "Vitres teintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "MINI Driving Modes"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/mini-cooper-jcw-231-ultimate",
+      "legacyCover": "IMG_2674-1920w.png",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "mini-cooper-3-portes-favoured-2024",
+      "category": "vp",
+      "status": "vendu",
+      "condition": "occasion",
+      "brand": "Mini",
+      "model": "Cooper 3 portes",
+      "version": "C Favoured",
+      "year": 2024,
+      "firstRegistration": "2024-10",
+      "mileageKm": 14000,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 156,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "citadine",
+      "exteriorColor": "Gris",
+      "interiorColor": null,
+      "price": {
+        "amount": 27900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Alerte de franchissement de ligne",
+            "Alerte angles morts",
+            "Caméra de recul",
+            "Parking assistant automatique",
+            "Radars avant et arrière",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Apple CarPlay / Android Auto",
+            "Affichage tête haute",
+            "Chargeur à induction",
+            "Instrumentation digitale",
+            "Navigation Professional",
+            "MINI Teleservices"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation automatique bi-zone",
+            "Intérieur cuir",
+            "Sièges chauffants",
+            "Volant multifonction chauffant"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Capteurs de luminosité et de pluie",
+            "Jantes 18\"",
+            "Pack extérieur Black",
+            "Phares LED matriciels",
+            "Rétroviseurs électriques"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Auto Hold",
+            "Start & Stop"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/mini-cooper-3p-grise-my-2024",
+      "legacyCover": "IMG_2773-2-1920w.png",
+      "todo": [
+        "STATUT : la fiche est à la fois dans le stock et dans /vendu. Vendue ou pas ?",
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "volkswagen-t-roc-r-akrapovic-2022",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Volkswagen",
+      "model": "T-Roc R",
+      "version": "2.0 TSI 4Motion Akrapovič",
+      "year": 2022,
+      "firstRegistration": "2022-09",
+      "mileageKm": 80500,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "DSG",
+      "powerHp": 300,
+      "fiscalHp": null,
+      "engine": "2.0 L",
+      "bodyType": "suv",
+      "exteriorColor": "Gris",
+      "interiorColor": null,
+      "price": {
+        "amount": 27900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Révision 04/2026 à 80 000 km.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Caméra de recul",
+            "Lane Assist",
+            "Park Assist",
+            "Radars avant/arrière",
+            "Régulateur adaptatif"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Apple CarPlay / Android Auto",
+            "Audio Discover",
+            "Connect Plus"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation automatique bi-zone",
+            "Keyless Access",
+            "Sièges chauffants",
+            "Sièges cuir",
+            "Sièges électriques à mémoire",
+            "Toit ouvrant panoramique",
+            "Volant chauffant",
+            "Volant multifonction"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Style carbone",
+            "Échappement sport Akrapovič",
+            "Phares matriciels IQ.Light",
+            "Jantes 19\"",
+            "Pack chrome",
+            "Vitres teintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Start & Stop"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/volkswagen-t-roc-r-gris",
+      "legacyCover": "Volkswagen-T-ROC-R-Grise-Smart-Lease87",
+      "todo": [
+        "CV fiscaux",
+        "Garantie"
+      ]
+    },
+    {
+      "slug": "renault-rafale-e-tech-200-esprit-alpine-2024",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Renault",
+      "model": "Rafale",
+      "version": "E-Tech full hybrid 200 Esprit Alpine",
+      "year": 2024,
+      "firstRegistration": "2024-07",
+      "mileageKm": 21500,
+      "fuel": "hybride",
+      "transmission": "automatique",
+      "gearboxLabel": "Automatique",
+      "powerHp": 200,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "suv",
+      "exteriorColor": "Bleu",
+      "interiorColor": null,
+      "price": {
+        "amount": 38500,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Prochaine révision 09/2027 ou 20 500 km. 4 roues directrices 4Control.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Assistant de parking automatique",
+            "Alerte angles morts",
+            "Caméra 360°",
+            "Régulateur adaptatif avec maintien dans la voie"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Affichage tête haute",
+            "Apple CarPlay",
+            "Chargeur à induction",
+            "Système audio Harman Kardon"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Accès sans clé",
+            "Éclairage d'ambiance",
+            "Climatisation bi-zone",
+            "Hayon électrique",
+            "Ioniseur",
+            "Sièges et volant chauffants",
+            "Siège conducteur massant",
+            "Toit panoramique Solarbay",
+            "Multi-Sense",
+            "Intérieur Alpine cuir/Alcantara"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Jantes Alpine 20\"",
+            "Phares matriciels LED",
+            "Vitres arrière teintées"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/renault-rafale-bleu-alpine-200-hybride",
+      "legacyCover": "IMG_0005-1920w.png",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie",
+        "Révision 09/2027 à 20 500 km alors que le véhicule a 21 500 km : à vérifier"
+      ]
+    },
+    {
+      "slug": "donkervoort-d8-2004",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Donkervoort",
+      "model": "D8",
+      "version": "210 préparation Düchting",
+      "year": 2004,
+      "firstRegistration": "2004-12",
+      "mileageKm": 44300,
+      "fuel": "essence",
+      "transmission": "manuelle",
+      "gearboxLabel": "Manuelle Borg Warner",
+      "powerHp": 281,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "cabriolet",
+      "exteriorColor": "Rouge Audi RS",
+      "interiorColor": null,
+      "price": {
+        "amount": 85000,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Préparée en 2006 par Michael Düchting (recordman du Nürburgring).",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Confort",
+          "items": [
+            "Sièges cuir/Alcantara avec harnais 5 points",
+            "Tissus et moquettes noirs",
+            "Freins AV disques ventilés (Ford Focus RS)"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Différentiel autobloquant",
+            "Suspensions réglables en hauteur et en dureté",
+            "Freins AR disques pleins",
+            "Pneus Toyo R888"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Capote et portes noires",
+            "Carter sec, dump valve, wastegates",
+            "Boîte Borg Warner"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": true,
+      "legacyUrl": "/donkervoort-d8",
+      "legacyCover": "Donkervoort-C8-Smart-Lease76-1920w.JPG",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Libellé « D8 210 » vs 281 ch à clarifier"
+      ]
+    },
+    {
+      "slug": "audi-a3-sportback-35-tdi-s-line-2025",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Audi",
+      "model": "A3 Sportback",
+      "version": "35 TDI S line",
+      "year": 2025,
+      "firstRegistration": "2025-05",
+      "mileageKm": 19500,
+      "fuel": "diesel",
+      "transmission": "automatique",
+      "gearboxLabel": "S tronic",
+      "powerHp": 150,
+      "fiscalHp": null,
+      "engine": "2.0 TDI",
+      "bodyType": "compacte",
+      "exteriorColor": "Noir",
+      "interiorColor": null,
+      "price": {
+        "amount": 38900,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Assistant d'intersection",
+            "Assistant de conduite adaptatif avec assistant d'urgence",
+            "Assistant de maintien de voie",
+            "Audi pre sense avant",
+            "Avertisseur de changement de voie",
+            "Contrôle de pression des pneus",
+            "Pack d'assistance conduite et stationnement pro",
+            "Pack d'assistance Systèmes de protection plus",
+            "Lecture des panneaux par caméra"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Audi connect Appel d'urgence & Service avec Remote & Control",
+            "Audi connect Navigation & Infotainment",
+            "Audi phone box light",
+            "Audi virtual cockpit",
+            "Interface smartphone",
+            "MMI Radio plus",
+            "Système audio SONOS 3D"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Clé confort",
+            "Climatisation automatique confort",
+            "Sièges avant chauffants",
+            "Éclairage d'ambiance",
+            "Intérieur S avec sièges sport S",
+            "Pack confort plus",
+            "Pack éclairage d'ambiance",
+            "Climatisation 3 zones",
+            "Volant cuir perforé surpiqûres contrastées",
+            "Rétroviseur intérieur électrochrome",
+            "Sièges sport avant",
+            "Becquet de toit S",
+            "Toit ouvrant panoramique",
+            "Volant cuir 3 branches multifonction plus avec palettes"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Châssis sport",
+            "Pack optique noir plus",
+            "Boucliers S line",
+            "Phares Matrix LED avec lave-phares",
+            "Préparation attelage",
+            "Jantes Audi Sport 5 doubles branches en Y noires",
+            "Vitrage arrière surteinté"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au stationnement Plus avec affichage de l'environnement",
+            "Audi drive select",
+            "Inserts aluminium spectre foncé",
+            "Pédalier inox",
+            "Seuils de porte aluminium",
+            "Pare-brise athermique"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/audi-a3-s-line-tdi-150-diesel-noir-smart-lease-occasion",
+      "legacyCover": "IMG_1325.png",
+      "todo": [
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie (MEC 05/2025 : garantie constructeur probable, à confirmer)"
+      ]
+    },
+    {
+      "slug": "seat-leon-e-hybrid-excellence-2020",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Seat",
+      "model": "Leon",
+      "version": "1.4 e-Hybrid 204 Xcellence",
+      "year": 2020,
+      "firstRegistration": "2020-10",
+      "mileageKm": 86500,
+      "fuel": "hybride-rechargeable",
+      "transmission": "automatique",
+      "gearboxLabel": "DSG",
+      "powerHp": 204,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "compacte",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": 18800,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": "Dernière révision 08/2025 à 85 000 km.",
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Alerte angles morts",
+            "Alerte de franchissement de ligne",
+            "Caméra de recul",
+            "Contrôle de pression des pneus",
+            "Front Assist",
+            "Radars avant et arrière",
+            "Lecture des panneaux",
+            "Régulateur adaptatif avec maintien dans la voie"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Apple CarPlay / Android Auto"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Accès sans clé",
+            "Chauffage auxiliaire",
+            "Climatisation automatique 3 zones",
+            "Sièges cuir/Alcantara",
+            "Sièges électriques à mémoire"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Éclairage Full LED",
+            "Jantes alliage",
+            "Pack City",
+            "Roue de secours"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au démarrage en côte"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/seat-leon-ehybrid-excellence",
+      "legacyCover": "IMG_1211-1920w.png",
+      "todo": [
+        "Couleur",
+        "Régime TVA",
+        "CV fiscaux",
+        "Garantie",
+        "Ancien site : « hybride essence 1.5 L » ; l'e-Hybrid 204 est un 1.4 hybride rechargeable : à confirmer"
+      ]
+    },
+    {
+      "slug": "renault-clio-5-blue-dci-100-advanced-gris-schiste-2025",
+      "category": "vp",
+      "status": "vendu",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Clio 5",
+      "version": "Blue dCi 100 Advanced",
+      "year": 2025,
+      "firstRegistration": null,
+      "mileageKm": 50,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": "Manuelle 5 rapports",
+      "powerHp": 100,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "citadine",
+      "exteriorColor": "Gris Schiste",
+      "interiorColor": null,
+      "price": {
+        "amount": 19500,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Alerte de franchissement de ligne",
+            "Caméra de recul",
+            "Contrôle de pression des pneus",
+            "Front Assist",
+            "Radars arrière",
+            "Lecture des panneaux",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "GPS Easy Link 7\"",
+            "Instrumentation digitale"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle",
+            "Sièges tissu"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Éclairage Full LED Pure Vision",
+            "Pack Black",
+            "Pack City",
+            "Roue de secours"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au démarrage en côte"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-clio-5-gris-schiste-100-dci",
+      "legacyCover": "IMG_1204-1920w.png",
+      "todo": [
+        "STATUT : la fiche est à la fois dans le stock et dans /vendu",
+        "CV fiscaux",
+        "Garantie constructeur"
+      ]
+    },
+    {
+      "slug": "renault-clio-5-blue-dci-100-advanced-noir-2025",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Clio 5",
+      "version": "Blue dCi 100 Advanced",
+      "year": 2025,
+      "firstRegistration": null,
+      "mileageKm": 50,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": "Manuelle 5 rapports",
+      "powerHp": 100,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "citadine",
+      "exteriorColor": "Noir Étoilé",
+      "interiorColor": null,
+      "price": {
+        "amount": 19500,
+        "taxMode": "TTC",
+        "vatRecoverable": false,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Alerte de franchissement de ligne",
+            "Caméra de recul",
+            "Contrôle de pression des pneus",
+            "Front Assist",
+            "Radars arrière",
+            "Lecture des panneaux",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "GPS Easy Link 7\"",
+            "Instrumentation digitale"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle",
+            "Sièges tissu"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Éclairage Full LED Pure Vision",
+            "Pack Black",
+            "Pack City",
+            "Roue de secours"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au démarrage en côte"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-clio-5-noir-100-dci",
+      "legacyCover": "IMG_1193-1920w.jpg",
+      "todo": [
+        "CV fiscaux",
+        "Garantie constructeur"
+      ]
+    },
+    {
+      "slug": "volkswagen-t-cross-1-0-tsi-110-style-2024",
+      "category": "vp",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Volkswagen",
+      "model": "T-Cross",
+      "version": "1.0 TSI 110 Style DSG",
+      "year": 2024,
+      "firstRegistration": "2024-08",
+      "mileageKm": 9900,
+      "fuel": "essence",
+      "transmission": "automatique",
+      "gearboxLabel": "DSG",
+      "powerHp": 110,
+      "fiscalHp": null,
+      "engine": "1.0 L",
+      "bodyType": "suv",
+      "exteriorColor": "Blanc",
+      "interiorColor": null,
+      "price": {
+        "amount": 24900,
+        "taxMode": "TTC",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Radars avant et arrière",
+            "Assistant de démarrage en côte",
+            "Front Assist",
+            "Lane Assist",
+            "Caméra de recul Rear View",
+            "Régulateur adaptatif ACC",
+            "Isofix",
+            "Lecture des panneaux",
+            "Dynamic Light Assist"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "App-Connect",
+            "Chargeur à induction",
+            "Digital Cockpit Pro",
+            "Kit mains libres Bluetooth"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatronic Air Care bi-zone",
+            "Éclairage d'ambiance",
+            "Rails de toit anodisés",
+            "Rétroviseur intérieur électrochrome",
+            "Rétroviseurs électriques chauffants rabattables",
+            "Sièges avant chauffants",
+            "Sièges confort avant",
+            "Volant cuir multifonction avec palettes"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Feux de jour LED",
+            "Jantes alliage 17\"",
+            "Pack IQ.Drive",
+            "Pack Lumière et Visibilité",
+            "Vitres arrière surteintées"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Capteur de lumière Coming/Leaving home",
+            "Start & Stop avec récupération d'énergie"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/volkswagen-t-cross-style-blanc",
+      "legacyCover": "T-Cross-2024-Blanc-Smart-Lease83-1920w.jpg",
+      "todo": [
+        "CV fiscaux",
+        "Garantie (MEC 08/2024 : garantie constructeur probable)"
+      ]
+    },
+    {
+      "slug": "renault-master-l4h2-165-roues-jumelees-grand-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Master",
+      "version": "L4H2 165 roues jumelées Grand Confort",
+      "year": 2023,
+      "firstRegistration": "2023-07",
+      "mileageKm": 50,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 165,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": "Blanc Minéral",
+      "interiorColor": null,
+      "price": {
+        "amount": 37500,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "ABS + aide au freinage d'urgence",
+            "ESP + Extended Grip + aide au démarrage en côte",
+            "Radar de recul",
+            "Régulateur et limiteur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Condamnation centralisée avec télécommande",
+            "R-Plug & Radio DAB (Bluetooth, USB)",
+            "GPS"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle",
+            "Lève-vitres avant électriques",
+            "Sellerie tissu Kompo",
+            "Siège conducteur réglage lombaire",
+            "Accès mains libres"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Cloison complète vitrée",
+            "Feux de jour LED C-Shape",
+            "Rétroviseurs électriques dégivrants double miroir",
+            "Roue de secours",
+            "Roues tôle 16\""
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Accoudoir conducteur escamotable",
+            "Alternateur renforcé",
+            "Banquette 2 places avec dossier central rabattable (tablette pivotante)",
+            "Boîte à gants tiroir Easy Life",
+            "Mode Eco",
+            "Côtés de caisse arrière tôlés",
+            "Feux et essuie-glaces automatiques",
+            "Habillage cloison Harmonie foncé",
+            "Miroir Wide View",
+            "Panneau latéral gauche tôlé",
+            "Points d'arrimage au plancher",
+            "Porte latérale droite coulissante tôlée",
+            "Portes arrière 180° tôlées",
+            "Prise 12V zone de chargement",
+            "Réservoir 105 L"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-master-jumelé-l4-h2",
+      "legacyCover": "IMG_8153-291d2b83-1920w.JPG",
+      "todo": []
+    },
+    {
+      "slug": "renault-master-l3h2-grand-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Master",
+      "version": "L3H2 Grand Confort",
+      "year": 2022,
+      "firstRegistration": "2022-07",
+      "mileageKm": 50,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": null,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": "Blanc Minéral (noir ou gris +500 € HT)",
+      "interiorColor": null,
+      "price": {
+        "amount": 33998,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": [
+          {
+            "label": "135 ch",
+            "amount": 33998
+          },
+          {
+            "label": "150 ch",
+            "amount": 34498
+          },
+          {
+            "label": "180 ch",
+            "amount": 35698
+          }
+        ]
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Pack Cargo et GPS selon version"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Mêmes équipements que le Master L4H2 (liste à revérifier sur le HTML brut)"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-master-180-l3-h2",
+      "legacyCover": "IMG_8153-1920w.JPG",
+      "todo": [
+        "La liste /utilitaires affiche le 180 à 35 998 € HT, la fiche à 35 698 € HT : quel prix ?"
+      ]
+    },
+    {
+      "slug": "renault-master-l2h2-grand-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Master",
+      "version": "L2H2 Grand Confort",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 50,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": null,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": "Blanc (noir ou gris +500 € HT)",
+      "interiorColor": null,
+      "price": {
+        "amount": 31890,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": [
+          {
+            "label": "135 ch",
+            "amount": 31890
+          },
+          {
+            "label": "150 ch",
+            "amount": 34698
+          }
+        ]
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse",
+            "Radar de recul"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "GPS"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Rétroviseurs électriques dégivrants"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Plancher bois résiné",
+            "Cloison complète",
+            "Ordinateur de bord",
+            "Anneaux d'arrimage",
+            "Portes arrière 180°",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-master-l2h2",
+      "legacyCover": "Renault-Master-L2H2-9-1920w.JPG",
+      "todo": [
+        "Liste : « 150 » à 34 698 € ; fiche : « 180 » à 34 698 €. Quelle motorisation ?"
+      ]
+    },
+    {
+      "slug": "renault-trafic-l1h1-130-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Trafic",
+      "version": "L1H1 / L2H1 130 Confort",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 130,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": 25400,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": [
+          {
+            "label": "L1H1",
+            "amount": 25400
+          },
+          {
+            "label": "L2H1",
+            "amount": 25900
+          }
+        ]
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse",
+            "Radar de recul"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Cloison complète",
+            "Ordinateur de bord",
+            "Anneaux d'arrimage",
+            "Portes arrière 180°",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-trafic-l1h1-grand-confort-130",
+      "legacyCover": "IMG_2694-e9d64925-1920w.JPG",
+      "todo": [
+        "Liste /utilitaires : « L2H1 130 Confort » à 27 900 € HT ; fiche : 25 400 / 25 900 € HT. Quel prix ?"
+      ]
+    },
+    {
+      "slug": "renault-trafic-l1h1-150-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Trafic",
+      "version": "L1H1 150 Confort",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 150,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": 27500,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse",
+            "Radar de recul"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Plancher bois résiné",
+            "Cloison complète",
+            "Ordinateur de bord",
+            "Anneaux d'arrimage",
+            "Portes arrière 180°",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-trafic-l1h1-confort",
+      "legacyCover": "IMG_2694-e9d64925-1920w.JPG",
+      "todo": []
+    },
+    {
+      "slug": "renault-trafic-l2h1-145-energy-confort",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Trafic",
+      "version": "L2H1 Energy dCi 145 Confort",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 145,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Pack Visibilité Plus",
+            "Rétroviseurs électriques dégivrants"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Plancher bois résiné",
+            "Cloison complète",
+            "Ordinateur de bord",
+            "Anneaux d'arrimage",
+            "Portes arrière 180°",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-trafic-l2h1-confort",
+      "legacyCover": "Renault-Trafic-L2H1-Smart-Lease-9-1920w.JPG",
+      "todo": [
+        "Prix",
+        "Encore disponible ?"
+      ]
+    },
+    {
+      "slug": "renault-trafic-l2h1-145",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Trafic",
+      "version": "L2H1 145",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 145,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Rétroviseurs électriques dégivrants"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Plancher bois résiné",
+            "Cloison complète",
+            "Ordinateur de bord",
+            "Anneaux d'arrimage",
+            "Portes arrière 180°",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-trafic-l2h1",
+      "legacyCover": "Renault-Master-L2H1-Smart-Lease-11-1920w.JPG",
+      "todo": [
+        "Prix",
+        "Encore disponible ?",
+        "Photos nommées « Master » sur une fiche Trafic"
+      ]
+    },
+    {
+      "slug": "renault-express-van-blue-dci-95-blanc",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Express Van",
+      "version": "Blue dCi 95",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 100,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 95,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgonnette",
+      "exteriorColor": "Blanc",
+      "interiorColor": null,
+      "price": {
+        "amount": 18000,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Aide au freinage d'urgence",
+            "Caméra de recul",
+            "Régulateur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Radio Bluetooth/USB"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Cloison vitrée",
+            "Enjoliveurs Carten",
+            "Roue de secours"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Boîte à gants fermée",
+            "Feux et essuie-glaces automatiques",
+            "Porte latérale coulissante"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-express-van-dci-95-blanc",
+      "legacyCover": "Renault-Express-VAN-Blanc-Smart-Lease-3-1920w.jpg",
+      "todo": []
+    },
+    {
+      "slug": "renault-express-van-blue-dci-95-gris-urban",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Express Van",
+      "version": "Blue dCi 95 Confort / Grand Confort",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 95,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgonnette",
+      "exteriorColor": "Gris Urban (liste : aussi noir)",
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Aide au freinage d'urgence"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "Radio DAB Connect R&Go (Bluetooth, USB)"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Cloison complète vitrée",
+            "Enjoliveurs Carten",
+            "Roue de secours"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Boîte à gants fermée",
+            "Feux et essuie-glaces automatiques",
+            "Porte latérale coulissante"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-express-van-dci-95",
+      "legacyCover": "Renault-Express-Van-Gris-Smart-Lease-8-1920w.JPG",
+      "todo": [
+        "Prix",
+        "Combien d'exemplaires / couleurs ?"
+      ]
+    },
+    {
+      "slug": "renault-master-benne-135-roues-jumelees",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Renault",
+      "model": "Master Benne",
+      "version": "dCi 135 Confort, benne 3,20 m, coffre 1,30 m, roues jumelées",
+      "year": null,
+      "firstRegistration": null,
+      "mileageKm": 10,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 135,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "benne",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Régulateur de vitesse",
+            "Radar de recul"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "R-Link"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres électriques"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Pack Visibilité Plus",
+            "Rétroviseurs électriques dégivrants"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Ordinateur de bord",
+            "Banquette passager 2 places"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/renault-master-benne",
+      "legacyCover": "Renault-Master-Benne-Smalrt-Lease-14-1920w.JPG",
+      "todo": [
+        "Prix",
+        "Encore disponible ?",
+        "Options copiées d'un fourgon (plancher bois, cloison, portes 180°) retirées : à confirmer"
+      ]
+    },
+    {
+      "slug": "fiat-talento-l2h1-2-0-multijet-120-pro-lounge-2021",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "occasion",
+      "brand": "Fiat",
+      "model": "Talento",
+      "version": "L2H1 2.0 MultiJet 120 Pro Lounge",
+      "year": 2021,
+      "firstRegistration": "2021-07",
+      "mileageKm": null,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": "Manuelle 6 rapports",
+      "powerHp": 120,
+      "fiscalHp": 7,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": "Blanc",
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Radar de recul",
+            "Caméra de recul",
+            "ABS, AFU, ESP",
+            "Airbags conducteur et passager",
+            "Direction assistée",
+            "Antibrouillards",
+            "Régulateur et limiteur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "GPS Europe",
+            "Écran tactile multimédia"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation",
+            "Lève-vitres avant électriques",
+            "Siège réglable en hauteur et profondeur",
+            "Volant réglable en hauteur et profondeur"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Feux de jour LED",
+            "Rétroviseurs électriques dégivrants"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Aide au démarrage en côte",
+            "Allumage automatique des feux",
+            "Essuie-glaces automatiques",
+            "Start & Stop"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/fiat-talento-l2h1",
+      "legacyCover": "FIAT-Talento-L2H1-Smart-Lease-6-1920w.jpg",
+      "todo": [
+        "Prix",
+        "Kilométrage",
+        "Encore disponible ?"
+      ]
+    },
+    {
+      "slug": "fiat-ducato-l3h2-2-3-multijet-140-pro-lounge-2021",
+      "category": "utilitaire",
+      "status": "en-stock",
+      "condition": "zero-km",
+      "brand": "Fiat",
+      "model": "Ducato",
+      "version": "3.3 t L3H2 2.3 MultiJet 140 Pro Lounge",
+      "year": 2021,
+      "firstRegistration": "2021-08",
+      "mileageKm": 100,
+      "fuel": "diesel",
+      "transmission": "manuelle",
+      "gearboxLabel": null,
+      "powerHp": 140,
+      "fiscalHp": null,
+      "engine": null,
+      "bodyType": "fourgon",
+      "exteriorColor": null,
+      "interiorColor": null,
+      "price": {
+        "amount": null,
+        "taxMode": "HT",
+        "vatRecoverable": true,
+        "co2TaxIncluded": false,
+        "financingAvailable": true,
+        "variants": []
+      },
+      "warranty": null,
+      "maintenance": null,
+      "highlights": [],
+      "options": [
+        {
+          "group": "Sécurité et aides à la conduite",
+          "items": [
+            "Radar de recul",
+            "Caméra de recul",
+            "Régulateur et limiteur de vitesse"
+          ]
+        },
+        {
+          "group": "Multimédia et connectivité",
+          "items": [
+            "GPS Europe",
+            "Écran tactile"
+          ]
+        },
+        {
+          "group": "Confort",
+          "items": [
+            "Climatisation manuelle",
+            "Volant multifonction"
+          ]
+        },
+        {
+          "group": "Extérieur et châssis",
+          "items": [
+            "Suspension arrière bi-lames",
+            "Phares LED",
+            "Rétroviseurs électriques"
+          ]
+        },
+        {
+          "group": "Autres équipements",
+          "items": [
+            "Porte latérale droite coulissante"
+          ]
+        }
+      ],
+      "images": [],
+      "featured": false,
+      "legacyUrl": "/fiat-ducato-140-smart-lease",
+      "legacyCover": "FIAT-Ducato-Smart-Lease-Avant-1920w.jpg",
+      "todo": [
+        "Prix",
+        "Encore disponible ?"
+      ]
+    }
+  ],
+  "soldReferences": [
+    {
+      "slug": "audi-rs6-avant-2020-gris-nardo",
+      "title": "Audi RS6 Avant 4.0 TFSI V8 600 ch",
+      "brand": "Audi",
+      "legacyUrl": "/audi-rs6-2020-nardo-grey-v8",
+      "legacyCover": "IMG_7184-1920w.JPG",
+      "images": []
+    },
+    {
+      "slug": "audi-rsq3-sportback-2020-gris-daytona",
+      "title": "Audi RS Q3 2.5 TFSI",
+      "brand": "Audi",
+      "legacyUrl": "/audi-rsq3-performance",
+      "legacyCover": "IMG_0862.JPG",
+      "images": []
+    },
+    {
+      "slug": "mercedes-classe-a-200-amg-line-2020",
+      "title": "Mercedes-Benz Classe A 200 AMG Line 7G-DCT",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/classa200ess",
+      "legacyCover": "IMG_6970.JPG",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-r-line-1-5-etsi-150-dsg-2020",
+      "title": "Volkswagen Golf 8 R-Line 1.5 eTSI 150 DSG",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-r-line-dsg-150-chv",
+      "legacyCover": "golf8Rline1-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "porsche-911-991-1-carrera-blanche",
+      "title": "Porsche 911 (991.1) Carrera 4S Cabriolet",
+      "brand": "Porsche",
+      "legacyUrl": "/porsche-911-991-1-carrera-blanche",
+      "legacyCover": "IMG_1054-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "m135i-noir-2025",
+      "title": "BMW M135i xDrive",
+      "brand": "BMW",
+      "legacyUrl": "/m135i-noir-2025",
+      "legacyCover": "IMG_2355-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-gte-noir",
+      "title": "Volkswagen Golf 8 GTE Phase 2 272 ch noire",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-gte-noir",
+      "legacyCover": "IMG_2450-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "mini-cooper-5p-noir",
+      "title": "Mini Cooper 5 portes noire",
+      "brand": "Mini",
+      "legacyUrl": "/mini-cooper-5p-noir",
+      "legacyCover": "IMG_0030-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-gte-blanche",
+      "title": "Volkswagen Golf 8 GTE Phase 2 272 ch blanche",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-gte-blanche",
+      "legacyCover": "IMG_2498-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-tayron-urano",
+      "title": "Volkswagen Tayron R-Line 200",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-tayron-urano",
+      "legacyCover": "IMG_1714-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "alpine-a110-gts",
+      "title": "Alpine A110 GTS",
+      "brand": "Alpine",
+      "legacyUrl": "/alpine-a110-gts",
+      "legacyCover": "IMG_2373-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "mini-cooper-3p-grise-bande-my-2024",
+      "title": "Mini Cooper 3 portes Favoured grise à bandes",
+      "brand": "Mini",
+      "legacyUrl": "/mini-cooper-3p-grise-bande-my-2024",
+      "legacyCover": "IMG_2798-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "bmw-m3-cs-noir",
+      "title": "BMW M3 CS noire",
+      "brand": "BMW",
+      "legacyUrl": "/bmw-m3-cs-noir",
+      "legacyCover": "BMW-M3-CS-Noir-Smart-Lease89-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "renault-clio-5-alpine-bleu",
+      "title": "Renault Clio 5 Esprit Alpine 145 bleue",
+      "brand": "Renault",
+      "legacyUrl": "/renault-clio-5-alpine-bleu",
+      "legacyCover": "IMG_2539-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "porsche-718-spyder-rs",
+      "title": "Porsche 718 Spyder RS",
+      "brand": "Porsche",
+      "legacyUrl": "/porsche-718-spyder-rs",
+      "legacyCover": "IMG_2591-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "porsche-911-992-1-4-gts",
+      "title": "Porsche 911 (992.1) Carrera 4 GTS",
+      "brand": "Porsche",
+      "legacyUrl": "/porsche-911-992-1-4-gts",
+      "legacyCover": "IMG_2597-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "bmw-m135i-noir-xdrive",
+      "title": "BMW M135i xDrive noire",
+      "brand": "BMW",
+      "legacyUrl": "/bmw-m135i-noir-xdrive",
+      "legacyCover": "IMG_5264-3f830816-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "renault-twingo-1-0-sce-life",
+      "title": "Renault Twingo SCe 65 Life",
+      "brand": "Renault",
+      "legacyUrl": "/renault-twingo-1-0-sce-life",
+      "legacyCover": "IMG_2268-20654499-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "peugeot-2008-gt-orange",
+      "title": "Peugeot 2008 GT orange",
+      "brand": "Peugeot",
+      "legacyUrl": "/peugeot-2008-gt-orange",
+      "legacyCover": "IMG_1940-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-r-line-dsg-150-chv-grise",
+      "title": "Volkswagen Golf 8 R-Line TDI 150 grise",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-r-line-dsg-150-chv-grise",
+      "legacyCover": "IMG_1967-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-r-line-etsi-bleu-glacier",
+      "title": "Volkswagen Golf 8 R-Line 150 bleu glacier",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-r-line-etsi-bleu-glacier",
+      "legacyCover": "IMG_1561-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "peugeot-3008-gt-line-occ",
+      "title": "Peugeot 3008 GT Line",
+      "brand": "Peugeot",
+      "legacyUrl": "/peugeot-3008-gt-line-occ",
+      "legacyCover": "IMG_1921-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "renault-clio-5-alpine",
+      "title": "Renault Clio 5 Esprit Alpine 145",
+      "brand": "Renault",
+      "legacyUrl": "/renault-clio-5-alpine",
+      "legacyCover": "IMG_2091-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "renault-clio-5-gris-rafal-100-dci",
+      "title": "Renault Clio 5 dCi 100 gris Rafale",
+      "brand": "Renault",
+      "legacyUrl": "/renault-clio-5-gris-rafal-100-dci",
+      "legacyCover": "IMG_1178-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "audi-a3-s-line-tdi-150-diesel-noir-smart-lease",
+      "title": "Audi A3 Sportback 35 TDI S line noire",
+      "brand": "Audi",
+      "legacyUrl": "/audi-a3-s-line-tdi-150-diesel-noir-smart-lease",
+      "legacyCover": "IMG_1325-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "audi-a3-s-line-tdi-150-diesel-grise-smart-lease",
+      "title": "Audi A3 Sportback 35 TDI S line grise",
+      "brand": "Audi",
+      "legacyUrl": "/audi-a3-s-line-tdi-150-diesel-grise-smart-lease",
+      "legacyCover": "IMG_1417-082a9f2a-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "aston-martin-dbs-rouge",
+      "title": "Aston Martin DBS rouge",
+      "brand": "Aston",
+      "legacyUrl": "/aston-martin-dbs-rouge",
+      "legacyCover": "Aston-Martin-DBS-Rouge-Smart-Lease08-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-gte",
+      "title": "Volkswagen Golf 8 GTE",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-gte",
+      "legacyCover": "IMG_7013-5c078c23-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "audi-s5",
+      "title": "Audi S5",
+      "brand": "Audi",
+      "legacyUrl": "/audi-s5",
+      "legacyCover": "IMG_0915-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "mercedes-gcl63s",
+      "title": "Mercedes-AMG GLC 63 S",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/mercedes-gcl63s",
+      "legacyCover": "GLC-63S-2025-Noir-Smart-Lease38-2-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "audi-a3-s-line-etfsi-occ",
+      "title": "Audi A3 Sportback 40 TFSI e S line",
+      "brand": "Audi",
+      "legacyUrl": "/audi-a3-s-line-etfsi-occ",
+      "legacyCover": "IMG_0843-2-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "mercedes-eqv-300-long",
+      "title": "Mercedes-Benz EQV 300 Long",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/mercedes-eqv-300-long",
+      "legacyCover": "IMG_0748-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "skoda-octavia-rs-noir",
+      "title": "Skoda Octavia RS noire",
+      "brand": "Skoda",
+      "legacyUrl": "/skoda-octavia-rs-noir",
+      "legacyCover": "IMG_0731-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "porsche-macan-gts",
+      "title": "Porsche Macan GTS grise",
+      "brand": "Porsche",
+      "legacyUrl": "/porsche-macan-gts",
+      "legacyCover": "Porsche-Macan-GTS-Gris-Smart-Lease64-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "glc-coupe-300-de",
+      "title": "Mercedes-Benz GLC Coupé 300 de",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/glc-coupe-300-de",
+      "legacyCover": "IMG_0635-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "copie-de-audi-rs3-grise",
+      "title": "Audi RS3 Sportback grise",
+      "brand": "Audi",
+      "legacyUrl": "/copie-de-audi-rs3-grise",
+      "legacyCover": "IMG_0197-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "audi-rs3-blanche-carbone",
+      "title": "Audi RS3 Sportback blanche carbone",
+      "brand": "Audi",
+      "legacyUrl": "/audi-rs3-blanche-carbone",
+      "legacyCover": "IMG_0243-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "nissan-quaskqai-tekna",
+      "title": "Nissan Qashqai Tekna+",
+      "brand": "Nissan",
+      "legacyUrl": "/nissan-quaskqai-tekna",
+      "legacyCover": "IMG_9867-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "peugeot-308-iii-sw",
+      "title": "Peugeot 308 SW BlueHDi",
+      "brand": "Peugeot",
+      "legacyUrl": "/peugeot-308-iii-sw",
+      "legacyCover": "Peugeot-308-III-SW-Smart-Lease2-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "peugeot-208-gt-line-130-puretech-noir",
+      "title": "Peugeot 208 GT Line 130 EAT8 noire",
+      "brand": "Peugeot",
+      "legacyUrl": "/peugeot-208-gt-line-130-puretech-noir",
+      "legacyCover": "IMG_8805-3-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-r-line-etsi-blanc",
+      "title": "Volkswagen Golf 8.2 R-Line eTSI blanche",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-r-line-etsi-blanc",
+      "legacyCover": "1749043501-1620313_8-a2657e89-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "mercedes-cla-180-dct-sensation",
+      "title": "Mercedes-Benz CLA 180 Sensation DCT",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/mercedes-cla-180-dct-sensation",
+      "legacyCover": "IMG_7967-2-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "audi-q3-40-tdi-s-line-gris",
+      "title": "Audi Q3 40 TDI S line 200 grise",
+      "brand": "Audi",
+      "legacyUrl": "/audi-q3-40-tdi-s-line-gris",
+      "legacyCover": "IMG_9596-a73e5f26-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-r-line-etsi",
+      "title": "Volkswagen Golf 8.2 R-Line eTSI 115",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-r-line-etsi",
+      "legacyCover": "1748940981-1620030_9-e1e5d8bf-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-golf-8-2-r-line-etsi-noir",
+      "title": "Volkswagen Golf 8.2 R-Line eTSI noire",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-golf-8-2-r-line-etsi-noir",
+      "legacyCover": "1749043931-1620316_9-7715cced-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "audi-q8",
+      "title": "Audi Q8",
+      "brand": "Audi",
+      "legacyUrl": "/audi-q8",
+      "legacyCover": "IMG_9581-a28d616f-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "volkswagen-caddy-style",
+      "title": "Volkswagen Caddy Style",
+      "brand": "Volkswagen",
+      "legacyUrl": "/volkswagen-caddy-style",
+      "legacyCover": "IMG_9571-7b1a0288-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "copie-de-volkswagen-t-roc-r-noir",
+      "title": "Volkswagen T-Roc R noir",
+      "brand": "Volkswagen",
+      "legacyUrl": "/copie-de-volkswagen-t-roc-r-noir",
+      "legacyCover": "IMG_9318-3eef2638-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "bmw-serie-1-118i-auto-noir",
+      "title": "BMW Série 1 118i M Sport noire",
+      "brand": "BMW",
+      "legacyUrl": "/bmw-série-1-118i-auto-noir",
+      "legacyCover": "IMG_7366-6e0db0c0-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "mercedes-class-a-200-d-grise",
+      "title": "Mercedes-Benz Classe A 200 d grise",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/mercedes-class-a-200-d-grise",
+      "legacyCover": "IMG_7382-cecca0d2-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "renault-captur-gpl-noir",
+      "title": "Renault Captur TCe 100 GPL noir",
+      "brand": "Renault",
+      "legacyUrl": "/renault-captur-gpl-noir",
+      "legacyCover": "IMG_7995-2-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "copie-de-peugeot-208-gt-noir",
+      "title": "Peugeot 208 GT 100 EAT8 noire",
+      "brand": "Peugeot",
+      "legacyUrl": "/copie-de-peugeot-208-gt-noir",
+      "legacyCover": "Capture-d-écran-2025-06-03-à-18.23.31-1920w.png",
+      "images": []
+    },
+    {
+      "slug": "volvo-xc60-t6-awd-recharge-noir",
+      "title": "Volvo XC60 T6 AWD Recharge noir",
+      "brand": "Volvo",
+      "legacyUrl": "/volvo-xc60-t6-awd-recharge-noir",
+      "legacyCover": "Volvo-XC60-Noir-Smart-Lease42-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "mercedes-g400d",
+      "title": "Mercedes-Benz Classe G 400 d",
+      "brand": "Mercedes-Benz",
+      "legacyUrl": "/mercedes-g400d",
+      "legacyCover": "Mercedes-Class-G-400D-Noir-Smart-Lease03-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "opel-crossland-x",
+      "title": "Opel Crossland X",
+      "brand": "Opel",
+      "legacyUrl": "/opel-crossland-x",
+      "legacyCover": "IMG_8321-20657190-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "renault-espace-esprit-alpine-7p",
+      "title": "Renault Espace Esprit Alpine 7 places",
+      "brand": "Renault",
+      "legacyUrl": "/renault-espace-esprit-alpine-7p",
+      "legacyCover": "IUVg-5a4c7dd6-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "bmw-x5-45e-m-2",
+      "title": "BMW X5 xDrive45e M Sport",
+      "brand": "BMW",
+      "legacyUrl": "/bmw-x5-45e-m-2",
+      "legacyCover": "BMW-X5-45e-Noir-Smart-lease22-1920w.jpg",
+      "images": []
+    },
+    {
+      "slug": "audi-a3-noir-sline",
+      "title": "Audi A3 Sportback S line noire",
+      "brand": "Audi",
+      "legacyUrl": "/audi-a3-noir-sline",
+      "legacyCover": "IMG_8405-1130bec5-1920w.jpg",
+      "images": []
+    }
+  ],
+  "rental": [
+    {
+      "slug": "nissan-primastar-combi-8-places",
+      "title": "Nissan Primastar Combi 8 places",
+      "color": "Gris",
+      "legacyUrl": "/mercedes-class-c-300-coupé-amg",
+      "legacyCover": "Nissan-Combi-Gris-8-Place-Smart-Lease64-1920w.jpg",
+      "images": []
+    }
+  ]
+}
